@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #eae6f6;
+    user-select: none;
+}
+
+.container {
+    background: #fff;
+    max-width: 320px;
+    border:2px solid black;
+    border-color: black;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(232, 146, 8, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+.cart-image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#input-field {
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f4f2e4;
+    color: #f4ad07;
+}
+
+.add-button {
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #eb973e;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #e7ae3c;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    background-color: rgb(153, 191, 230);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid rgb(131, 138, 232);
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+ul li:hover {
+    background-color: rgb(164, 234, 242);
+    transform: translateY(-3px);
+}
